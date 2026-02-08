@@ -4,8 +4,8 @@ Yii Framework 2 Elasticsearch extension Change Log
 3.0.0 under development
 ------------------------
 
-- Enh #: Applying Yii2 coding standards (@s1lver)
-- Enh #: Raise min version to PHP 7.4 (@s1lver)
+- Enh #358: Applying Yii2 coding standards (@s1lver)
+- Enh #358: Raise min version to PHP 7.4 (@s1lver)
 - Bug #355: `ActiveDataProvider` pagination issue where `totalCount` returned 0 after updating from 2.1.5 to 2.1.6, causing incorrect `X-Pagination-Total-Count` header serialization (@lav45)
 
 
