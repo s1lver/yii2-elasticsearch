@@ -2455,7 +2455,7 @@ parameters:
 			path: tests/CommandTest.php
 
 		-
-			message: '#^Call to method PHPUnit\\Framework\\Assert\:\:assertArrayHasKey\(\) with ''name'' and array\{http_address\: ''inet\[/elasticsearch…''\} will always evaluate to false\.$#'
+			message: '#^Call to method PHPUnit\\Framework\\Assert\:\:assertArrayHasKey\(\) with ''name'' and array\{http_address\: string\} will always evaluate to false\.$#'
 			identifier: method.impossibleType
 			count: 1
 			path: tests/ElasticsearchConnectionTest.php
